@@ -2,6 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "dialog.h"
+#include "dialog2.h"
+#include "dialog3.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -17,8 +20,8 @@ public:
 
 private:
     Ui::MainWindow *ui;
-    Dialog *a;
-    Dialog2 *b;
-    Dialog3 *c;
+    Dialog *p;
+    Dialog2 *i;
+    Dialog3 *o;
 };
 #endif // MAINWINDOW_H
